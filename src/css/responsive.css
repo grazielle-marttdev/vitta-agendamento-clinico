@@ -1,0 +1,15 @@
+@media(max-width: 490px) {
+    .form {
+        width: 350px;
+    }
+}
+
+@media(max-width: 370px) {
+    .form {
+        width: 290px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+}
