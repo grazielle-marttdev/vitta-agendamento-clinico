@@ -1,15 +1,39 @@
-@media(max-width: 490px) {
+@media(max-width: 768px) {
+    main {
+        gap: 20px;
+        margin-top: 60px;
+    }
+    
+    h1 {
+        font-size: 30px;
+    }
+
     .form {
-        width: 350px;
+        width: 95%;
+        padding: 10px;
+    }
+
+    input, select, button {
+        font-size: 16px;
     }
 }
 
-@media(max-width: 370px) {
-    .form {
-        width: 290px;
+@media (min-width: 768px) and (max-width: 1024px) {
+    main {
+        margin-top: 80px;
     }
 
     h1 {
         font-size: 28px;
+    }
+    
+    .form {
+        width: 90%;
+        padding: 15px;
+        margin: 0 auto;
+    }
+
+    input, select, button {
+        font-size: 17px;
     }
 }
